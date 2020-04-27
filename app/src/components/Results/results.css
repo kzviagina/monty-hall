@@ -1,0 +1,33 @@
+.results {
+    margin: 0 auto 20px;
+}
+
+.result, .results-text {
+    display: flex;
+    flex-direction: row;
+}
+.results-text {
+    justify-content: space-between;
+}
+
+.result-bar {
+    height: 40px;
+}
+.result-bar.success {
+    background: #b5f5ec;
+}
+
+.result-bar.fail {
+    background: #ffd8bf;
+}
+
+.results-text {
+    font-weight: bold;
+}
+.results-text .success {
+    color: #006d75;
+}
+.results-text .fail {
+    color: #ad2102;
+    text-align: right;
+}
